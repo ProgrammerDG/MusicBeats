@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Beats</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 id="title">Music Beats...</h1>
+    <div id="container">
+        <div id="leftDiv" class="subDiv">
+            <h1 id="playlistHeading">Playlist</h1>
+            <div class="musicCont"><img class="musicImg m1" src="images/m1img.jpg"><i class="fa fa-heart fa-2x mh" id="m1"></i></div>
+            <div class="musicCont"><img class="musicImg m2" src="images/m2img.jpg"><i class="fa fa-heart fa-2x mh" id="m2"></i></div>
+            <div class="musicCont"><img class="musicImg m3" src="images/m3img.jpg"><i class="fa fa-heart fa-2x mh" id="m3"></i></div>
+            <div class="musicCont"><img class="musicImg m4" src="images/m4img.jpg"><i class="fa fa-heart fa-2x mh" id="m4"></i></div>
+            <div class="musicCont"><img class="musicImg m5" src="images/m5img.jpg"><i class="fa fa-heart fa-2x mh" id="m5"></i></div>
+            <div class="musicCont"><img class="musicImg m6" src="images/m6img.jpg"><i class="fa fa-heart fa-2x mh" id="m6"></i></div>
+            <div class="musicCont"><img class="musicImg m7" src="images/m7img.jpg"><i class="fa fa-heart fa-2x mh" id="m7"></i></div>
+            <div class="musicCont"><img class="musicImg m8" src="images/m8img.jpg"><i class="fa fa-heart fa-2x mh" id="m8"></i></div>
+            <div class="musicCont"><img class="musicImg m9" src="images/m9img.jpg"><i class="fa fa-heart fa-2x mh" id="m9"></i></div>
+            <div class="musicCont"><img class="musicImg m10" src="images/m10img.jpg"><i class="fa fa-heart fa-2x mh" id="m10"></i></div>
+            <div class="musicCont"><img class="musicImg m11" src="images/m11img.jpg"><i class="fa fa-heart fa-2x mh" id="m11"></i></div>
+        </div>
+        <div id="midDiv" class="subDiv">
+            <div id="player">
+                <div id="wheel"><img src="images/musicLogo.jpg" id="wheelImg"></div>
+            </div>
+            <audio controls autoplay id="playing"></audio>
+            <div id="moodDiv">
+                <abbr title="happy/sad/excited/romantic/lonely"><input id="mood" placeholder="How's your mood?"></abbr>
+                <button id="moodBtn">OK</button>
+            </div>
+        </div>
+        <div id="rightDiv" class="subDiv">
+            <h1 id="favoriteHeading">Favorites</h1>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>"Programmer DG Creations 🎭"</p>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
